@@ -1,2 +1,2 @@
-# First-steps
-Just a simple projects.
+# Greetings
+Just something i don't understand myself.
