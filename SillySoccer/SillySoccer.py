@@ -9,7 +9,7 @@ def power_bar(symbol, value):
     return symbol * value
 
 def get_match_info():
-    clubs = ["Bogde", "Maunt"]
+    clubs = ["Bogde", "Maunt", "Furries", "Nightshow"]
 
     while True:
         try:
@@ -80,7 +80,7 @@ def main():
 
     for r in range(rounds):
         print(f"\n===== ROUND {r + 1} =====")
-        time.sleep(1)
+        time.sleep(3)
 
         attacker_one = random.choice(first_club_names)
         attacker_two = random.choice(second_club_names)
@@ -93,7 +93,7 @@ def main():
 
         if p1_stat == p2_stat:
             print("Players cancel each other out. Midfield battle continues...")
-            time.sleep(2)
+            time.sleep(3)
             continue
 
 
@@ -115,7 +115,7 @@ def main():
         print(f"{attacker} outplays {defender}!")
         print(f"Shot power : {power_bar('#', attack_power)} ({attack_power})")
         print(f"GK reaction: {power_bar('#', gk_stat)} ({gk_stat})")
-        time.sleep(2)
+        time.sleep(3)
 
         if attack_power > gk_stat:
             print(f"GOAL! {attacker} scores for {attacking_team}!")
@@ -128,7 +128,7 @@ def main():
             print(f"SAVE! {gk_name} denies the goal!")
             saves[gk_name] += 1
         
-        time.sleep(2)
+        time.sleep(3)
 
     print("\n" + "="*25)
     print("      FINAL SCORE")
