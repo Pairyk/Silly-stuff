@@ -1,0 +1,178 @@
+{
+    "types": [
+        "Warrior",
+        "Ranger",
+        "Mage",
+        "Summoner"
+    ],
+    "races": [
+        "Elf",
+        "Dwarf",
+        "Demon",
+        "Human"
+    ],
+    "Locations": [
+        {
+            "name": "Enchanted Meadows",
+            "difficult": "1",
+            "monster_1": "Slime",
+            "monster_2": "Scarecrow"
+        },
+        {
+            "name": "Mystic Current",
+            "difficult": "1",
+            "monster_1": "Jellyfish",
+            "monster_2": "Piranha"
+        },
+        {
+            "name": "Cursed Spirit Village",
+            "difficult": "1",
+            "monster_1": "Shadow Blacksmith",
+            "monster_2": "Cursed Infant"
+        },
+        {
+            "name": "Forest of Living Roots",
+            "difficult": "2",
+            "monster_1": "Mole",
+            "monster_2": "Leaf Slime"
+        },
+        {
+            "name": "Elemental Shaman Clan",
+            "difficult": "2",
+            "monster_1": "Didjerrydo",
+            "monster_2": "Dark Shaman"
+        },
+        {
+            "name": "Temple",
+            "difficult": "2",
+            "monster_1": "Mummy",
+            "monster_2": "Temple Spirit"
+        },
+        {
+            "name": "Crystal Caves",
+            "difficult": "3",
+            "monster_1": "Golem",
+            "monster_2": "Witch"
+        },
+        {
+            "name": "Volcanic Lands",
+            "difficult": "3",
+            "monster_1": "Beagle",
+            "monster_2": "Dragon"
+        }
+    ],
+    "monsters": {
+        "Slime": {
+            "difficulty": 1,
+            "hp": 5,
+            "attack": 1,
+            "defense": 0,
+            "exp": 5
+        },
+        "Scarecrow": {
+            "difficulty": 1,
+            "hp": 6,
+            "attack": 2,
+            "defense": 0,
+            "exp": 6
+        },
+        "Jellyfish": {
+            "difficulty": 1,
+            "hp": 4,
+            "attack": 2,
+            "defense": 0,
+            "exp": 5
+        },
+        "Piranha": {
+            "difficulty": 1,
+            "hp": 5,
+            "attack": 2,
+            "defense": 1,
+            "exp": 6
+        },
+        "Shadow Blacksmith": {
+            "difficulty": 1,
+            "hp": 7,
+            "attack": 2,
+            "defense": 1,
+            "exp": 8
+        },
+        "Cursed Infant": {
+            "difficulty": 1,
+            "hp": 4,
+            "attack": 3,
+            "defense": 0,
+            "exp": 7
+        },
+        "Mole": {
+            "difficulty": 2,
+            "hp": 9,
+            "attack": 2,
+            "defense": 1,
+            "exp": 10
+        },
+        "Leaf Slime": {
+            "difficulty": 2,
+            "hp": 8,
+            "attack": 2,
+            "defense": 2,
+            "exp": 11
+        },
+        "Didjerrydo": {
+            "difficulty": 2,
+            "hp": 10,
+            "attack": 3,
+            "defense": 1,
+            "exp": 13
+        },
+        "Dark Shaman": {
+            "difficulty": 2,
+            "hp": 12,
+            "attack": 3,
+            "defense": 1,
+            "exp": 15
+        },
+        "Mummy": {
+            "difficulty": 2,
+            "hp": 11,
+            "attack": 3,
+            "defense": 2,
+            "exp": 14
+        },
+        "Temple Spirit": {
+            "difficulty": 2,
+            "hp": 10,
+            "attack": 4,
+            "defense": 1,
+            "exp": 16
+        },
+        "Golem": {
+            "difficulty": 3,
+            "hp": 18,
+            "attack": 4,
+            "defense": 3,
+            "exp": 25
+        },
+        "Witch": {
+            "difficulty": 3,
+            "hp": 14,
+            "attack": 5,
+            "defense": 1,
+            "exp": 24
+        },
+        "Beagle": {
+            "difficulty": 3,
+            "hp": 15,
+            "attack": 4,
+            "defense": 2,
+            "exp": 22
+        },
+        "Dragon": {
+            "difficulty": 3,
+            "hp": 20,
+            "attack": 5,
+            "defense": 3,
+            "exp": 35
+        }
+    }
+}
